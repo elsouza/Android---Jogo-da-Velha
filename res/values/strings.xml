@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Sedna++ Jogo da Velha</string>
+   <string name="main_title">Sedna++ Jogo da Velha</string>
+   <string name="continue_label">Continuar</string>
+   <string name="new_game_label">Novo jogo</string>
+   <string name="about_label">Sobre</string>
+   <string name="exit_label">Sair</string>
+
+   <string name="settings_label">Configurações</string>
+   <string name="settings_title">Configurações Jogo da Velha</string>
+   <string name="settings_shortcut">s</string>
+   <string name="music_title">Música</string>
+   <string name="music_summary">Tocar música</string>
+   
+   <string name="new_game_title">Dificuldade</string>
+   <string name="easy_label">Fácil</string>
+   <string name="medium_label">Médio</string>
+   <string name="hard_label">Difícil</string>
+
+   <string name="game_title">Jogo</string>
+   <string name="no_moves_label">Sem movimentações</string>
+   <string name="author">Sedna++</string>
+   <string name="about_title">Sobre Sedna++ Jogo da Velha</string>
+   <string name="about_text">\
+     O Jogo da Velha do Sedna++ foi desenvolvido como exemplo prático de uma apresentação entitulada "Introdução ao Desenvolvimento para Android", na Sednasoft, fábrica de softwares localizada em Campinas, São Paulo. 
+</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="sedna.jogos.velha.activities"
+      android:versionCode="1"
+      android:versionName="1.0">
+      
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name="sedna.jogos.velha.activities.SplashScreen"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+ 
+        </activity>
+        
+        <activity android:name="sedna.jogos.velha.activities.Main"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:screenOrientation="portrait" >
+
+             <intent-filter>
+                <action android:name="sedna.jogos.velha.activities.Main" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+           
+        </activity>
+
+        <activity android:name="sedna.jogos.velha.activities.Sobre"
+                  android:label="@string/about_title" 
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:screenOrientation="portrait">             
+        </activity>
+
+        <activity android:name="sedna.jogos.velha.activities.Preferencias"
+                  android:label="@string/settings_title" 
+                  android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="sedna.jogos.velha.activities.Jogo"
+                  android:label="@string/game_title"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+    <uses-sdk android:minSdkVersion="8" /> <!-- Versão mínima da API que vai rodar o app -->
+</manifest> 

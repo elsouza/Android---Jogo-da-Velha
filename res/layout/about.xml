@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:background="@color/background"
+   android:layout_height="fill_parent"
+   android:layout_width="fill_parent"
+   android:padding="30dip"
+   android:orientation="vertical"> 
+
+   <View android:layout_height="40dip" android:layout_width="wrap_content"/>
+   <TextView
+         android:id="@+id/txtAuthor"
+         android:text="@string/author"
+         android:textColor="@color/yellow"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:ellipsize="marquee"  
+         android:marqueeRepeatLimit="marquee_forever"         
+         android:singleLine="true"     
+         android:textSize="18sp"
+          />
+   <View android:layout_height="40dip" android:layout_width="wrap_content"/>
+       <TextView
+          android:id="@+id/about_content"
+          android:textColor="@color/yellow"
+          android:background="@color/blue"
+          android:enabled="false"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/about_text"       
+          android:textSize="14sp"     
+          />
+</LinearLayout>
+
+        

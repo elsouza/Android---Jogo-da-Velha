@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background" android:layout_height="fill_parent"
+    android:layout_width="fill_parent" android:layout_gravity="center" 
+    android:orientation="vertical">
+
+    <View android:layout_height="40dip" android:layout_width="wrap_content"/>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:stretchColumns="*"  
+        >
+        
+          <ImageView android:id="@+id/ImageView01"
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content"
+              android:layout_gravity="center">
+          </ImageView>
+
+        <TableRow>
+
+            <Button android:id="@+id/btM1"
+                android:textSize="32sp" android:layout_width="wrap_content" 
+                android:layout_height="wrap_content">
+            </Button>
+
+            <Button android:id="@+id/btM2"
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  
+                android:textSize="32sp">
+            </Button>
+            
+            <Button android:id="@+id/btM3" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  android:textSize="32sp">
+            </Button>  
+        </TableRow>
+        <TableRow >
+            <Button android:id="@+id/btM4" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:textSize="32sp">
+            </Button>
+            <Button android:id="@+id/btM5" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:textSize="32sp">
+            </Button>
+            <Button android:id="@+id/btM6"  
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  android:textSize="32sp">
+            </Button>  
+        </TableRow>
+        <TableRow >
+            <Button android:id="@+id/btM7" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  android:textSize="32sp">
+            </Button>
+            <Button android:id="@+id/btM8" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  android:textSize="32sp">
+            </Button>
+            <Button android:id="@+id/btM9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  android:textSize="32sp">
+            </Button>  
+        </TableRow>     
+    </TableLayout>
+
+    <TableLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:stretchColumns="*"  >
+    <TableRow android:layout_margin="1dp">
+        <TextView android:text="Android" 
+            android:background="#000000"
+            android:layout_margin="1dp" android:gravity="center" />
+        <TextView android:text="Você" 
+            android:background="#000000"
+            android:layout_margin="1dp" android:gravity="center" />
+    </TableRow>
+    <TableRow android:layout_margin="1dp">
+        <EditText android:id="@+id/txtDroid"        
+            android:textSize="14.0sp" 
+            android:textColor="#ffffff0f"           
+            android:layout_margin="1dp" 
+            android:enabled="false" 
+            android:text="" 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" android:gravity="center" />
+            
+        <EditText android:id="@+id/txtYou"        
+            android:textSize="14.0sp" 
+            android:textColor="#ffffff0f"           
+            android:layout_margin="1dp" 
+            android:enabled="false" 
+            android:text="" 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" android:gravity="center" />       
+    
+    </TableRow>
+    </TableLayout>
+</LinearLayout>
